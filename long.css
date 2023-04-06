@@ -1,0 +1,48 @@
+body{
+  color:white;
+   background-repeat:inherit;
+  background-size:100% 100% ;
+}
+H1{
+    margin-left:30%;
+    font: size 60px;;
+    color:black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.carte{
+    justify-content:center ;
+    justify-content:safe;
+    display:flex ;
+    margin-top:10px;
+    margin-bottom:20px;
+    margin-left: 300px;
+    margin-right: 300px;
+    }
+    .C{
+    border: 2px solid #03ccf0e3;
+    width: 300px;
+    border-radius: 30px;
+    }
+    .C h2{
+    color:rgb(226, 11, 11);
+    font-size: 20px;
+    text-align: center;
+    }
+    .C h3{
+    color:black;
+    font-size:20px;
+    text-align: center;
+    }
+    .carte :hover.C{
+    transform: scale(1.1);
+    }
+    .carte h2>a{
+    text-decoration:none;
+    font-size: 50px;
+    color:black;
+    }
+    .C img  {
+        margin-right:50%;
+        border-style:solid ;
+        border-radius: 1000px;
+    }
